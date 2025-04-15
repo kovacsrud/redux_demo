@@ -8,6 +8,7 @@ import alcoholismReducer from "./reducers/alcoholismSlice"
 import charactersReducer from "./reducers/characterSlice"
 import kepekReducer from "./reducers/kepekSlice"
 
+import koktelSlice from "./reducers/koktelSlice";
 
 export default configureStore({
     reducer:{
@@ -18,7 +19,9 @@ export default configureStore({
         alcohol: alcoholismReducer,
 
         characters:charactersReducer,
-        kepek:kepekReducer
+        kepek:kepekReducer,
+
+        koktelok:koktelSlice
 
     }
 });
