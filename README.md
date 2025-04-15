@@ -1,1 +1,1 @@
-# redux_demo
+# Redux gyakorlás
