@@ -7,6 +7,8 @@ import Alcohol from "./components/Alcoholism"
 import Characters from "./components/Characters";
 import Kepek from "./components/Kepek";
 
+import KoktelLista from "./components/KoktelLista";
+import RandKoktel from "./components/RandKoktel";
 
 function App() {
 
@@ -26,6 +28,11 @@ function App() {
       <Characters />
       <Kepek />
 
+      <div>
+        <h1 className="font-bold text-center">FP</h1>
+        <RandKoktel />
+        <KoktelLista />
+      </div>
     </div>
 
   )
