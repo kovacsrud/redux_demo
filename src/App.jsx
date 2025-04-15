@@ -1,6 +1,7 @@
 import Szamlalo from "./components/Szamlalo";
 import Users from "./components/Users";
 import Characters from "./components/Characters";
+import Kepek from "./components/Kepek";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Szamlalo />
       <Users />
       <Characters />
+      <Kepek />
     </div>
 
   )
